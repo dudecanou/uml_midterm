@@ -1,4 +1,3 @@
-<!-- test11 -->
 <?php
     session_start();
 ?>
