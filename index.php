@@ -81,10 +81,10 @@
           <?PHP
               if(isset($_SESSION['see_username']))
               {
-                  echo"Come on in " . $_SESSION['see_username'];
+                  echo"Welcome " . $_SESSION['see_username'];
               }
               else
-                  include("pages/see_login.php");
+                  include("ressources/views/see_login.php");
               ?>
         </div><!--/row-->
 
